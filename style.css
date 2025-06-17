@@ -7,6 +7,8 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    color: white;
+    background-color: black;
 }
 
 div {
@@ -25,7 +27,7 @@ iframe {
 
 .soundcloud-link-container {
     font-size: 10px;
-    color: #cccccc;
+    color: #ccc;
     line-break: anywhere;
     word-break: normal;
     overflow: hidden;
@@ -35,6 +37,6 @@ iframe {
 }
 
 .soundcloud-link-container a {
-    color: #cccccc;
+    color: #ccc;
     text-decoration: none;
 }
