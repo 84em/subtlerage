@@ -14,3 +14,8 @@ document.addEventListener('DOMContentLoaded', function () {
     document.addEventListener('keydown', loadIframe);
     document.addEventListener('touchstart', loadIframe);
 });
+
+document.body.style.visibility = 'hidden';
+window.addEventListener('load', function () {
+    document.body.style.visibility = 'visible';
+});
