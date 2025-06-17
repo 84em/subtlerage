@@ -12,6 +12,18 @@ body {
     background-color: black;
 }
 
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
 .page-container {
     margin: 0 auto;
     text-align: center;
@@ -27,7 +39,6 @@ iframe {
 }
 
 .link-container {
-    font-size: 14px;
     color: #8080ff;
 }
 
