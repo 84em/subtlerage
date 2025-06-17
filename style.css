@@ -11,7 +11,7 @@ body {
     background-color: black;
 }
 
-div {
+.page-container {
     margin: 0 auto;
     max-width: 600px;
     text-align: center;
@@ -22,21 +22,15 @@ iframe {
     height: 600px;
     scrolling: no;
     frameborder: no;
-    allow: autoplay;
+    border:1px solid #ccc;
 }
 
-.soundcloud-link-container {
-    font-size: 10px;
-    color: #ccc;
-    line-break: anywhere;
-    word-break: normal;
-    overflow: hidden;
-    white-space: nowrap;
-    text-overflow: ellipsis;
-    font-weight: 100;
+.link-container {
+    font-size: 14px;
+    color: #8080ff;
 }
 
-.soundcloud-link-container a {
-    color: #ccc;
-    text-decoration: none;
+.link-container a {
+    color: #8080FFFF;
+    text-decoration: underline;
 }
