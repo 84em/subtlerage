@@ -41,7 +41,7 @@ ul {
 
 ul li {
     font-size: 1rem;
-    line-height:1.5;
+    line-height: 1.5;
 }
 
 footer p {
@@ -55,7 +55,7 @@ iframe {
     margin: 1rem 0;
 }
 
-header,footer,section {
+header, footer, section {
     margin: 0 auto;
     text-align: left;
     max-width: 80%;
